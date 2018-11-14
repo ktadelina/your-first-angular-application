@@ -23,4 +23,4 @@ Asegurate que tu nombre este ahí! 💕 Intenta con mas variables!
 
 ![results](result.png)
 
-## Lo hiciste, Ahora pasa a la [rama #2](https://github.com/jdjuan/your-first-angular-application/tree/2#your-first-angular-application)
+## Lo hiciste, Ahora pasa a la [rama #2](https://github.com/ltciro/your-first-angular-application/tree/2#your-first-angular-application)
