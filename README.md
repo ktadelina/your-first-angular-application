@@ -1,26 +1,26 @@
-# Your First Angular Application
+# Tu primera aplicación Angular
 
 ## 2. Event binding
 
-Event binding allows us to attach events to elements or components e.g. `Click`, `Keyup`, among others ✌️
+Event binding nos permite agregar eventos a elementos o componentes e.g. `Click`, `Keyup`, muchos otros ✌️
 
-Let's start attaching our first event:
+Empecemos nuestro primer evento:
 
-1. Go to `app.component.html` and create a button: `<button>Click me 💪</button>`.
-2. Verify if it shows up in the right 👌
-3. Go to your `app.component.ts` file and create a new variable called **count** and initialize it on **0**: `count = 0;`
-4. Well, here is your first mission: Use **String Interpolation** to render our new variable. 🤡 Let the game begin... 🤡 Go ahead, do it.
+1. Abre `app.component.html` y crea un botón: `<button>Click me 💪</button>`.
+2. Verifica si se muestra 👌
+3. abre tu archivo `app.component.ts` y crea una nueva variable llamada **count** y inicializa la misma en **0**: `count = 0;`
+4. ¡Bien!, Aquí está tu primera misión: Usa **String Interpolation** para mostrar en la vista nuestra nueva variable. 🤡  Que empiece el juego... 🤡 Vamos, hazlo.
 5. ⏰⏰⏰
-6. **You ready?** Cool! I knew you could! 💪
-7. It's time to attach our event, go to our button and update it accordingly:
+6. **Estas list@?** Cool! 💪
+7. Es tiempo de agregar nuestro evento,cambia el botón acorde a esto:
 
 ```html
 <button (click)="count = count + 1" >Add 1</button>
 ```
 
-8. Go to the browser and test it!
-9. Did it work? Was it easy? Cooool! 🎉🎉🎉
+8. Mira el navegador y prueba!
+9. Funcionó? Cooool! 🎉🎉🎉
 
 ![result](result.png)
 
-## You are done, now go to [Branch #3](https://github.com/jdjuan/your-first-angular-application/tree/3#your-first-angular-application)
+## Lo hiciste, ahora la [rama #3](https://github.com/jdjuan/your-first-angular-application/tree/3#your-first-angular-application)
