@@ -23,4 +23,4 @@ Empecemos nuestro primer evento:
 
 ![result](result.png)
 
-## Lo hiciste, ahora la [rama #3](https://github.com/jdjuan/your-first-angular-application/tree/3#your-first-angular-application)
+## Lo hiciste, ahora la [rama #3](https://github.com/ltciro/your-first-angular-application/tree/3#your-first-angular-application)
