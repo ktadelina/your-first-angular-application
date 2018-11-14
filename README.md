@@ -1,58 +1,55 @@
-# Your First Angular Application
+# Tu primera aplicación Angular
 
-## 4. Component Creation
+## 4. Crear Componente
 
-So we already applied a lot of concepts to our application, now it's time to go a little more in depth. Let's start creating our own component 📦.
+Hasta ahora hemos aplicado muchos conceptos a nuestra aplicación, ahora es tiempo de profundizar un poco más. Vamos a crear nuestro propio componente 📦.
 
-In Stackblitz:
+En Stackblitz:
 
-1. Right click in the `app` folder
-2. Select `Angular Generator`
-3. And then click `component`. Name it whatever you want. For example: `my-component`
+1. Click derecho en la carpeta `app`
+2. Selecciona `Angular Generator`
+3. Y luego click a `component`. Nombra el componente como tu quieras, por ejemplo: `my-component`
 
 ![stackblitz](gen.png)
 
-A component is generally composed of:
+Un componente generalmente está compuesto por:
 
-- 🔧 **Component:** `my-component.component.ts`
-- 🎨 **Styles:** `my-component.component.css`
-- 📱 **Template:** `my-component.component.html`
-- 📋 **Tests:** `my-component.component.specs.ts`
+- 🔧 **Componentes:** `my-component.component.ts`
+- 🎨 **Estilos:** `my-component.component.css`
+- 📱 **Template o HTML:** `my-component.component.html`
+- 📋 **Pruebas:** `my-component.component.specs.ts`
 
-> A component is a way to have a more maintanable application (i.e. this is very useful when you are app grows).
+>  Un componente es una manera de tener una aplicación más mantenible en el tiempo(i.e. esto es muy útil cuando tu aplicación crece).
 
-The **template** holds something like this by default:
+El **template** contiene algo como esto por defecto:
 
 ```html
 <p>my-component works!</p>
 ```
 
-1. Now, let's open our component: `my-component.component.ts`
-2. Pay attention to the selector tag, it should be something like: `app-my-component`
+1. Ahora, Abrimos nuestro componente: `my-component.component.ts`
+2. Fijate en la etiqueta selector, debería ser algo como esto: `app-my-component`
 
-> The `selector` is the tag you can use to render your component inside another template.
+> El `selector` es ña etiqueta que puedes usar para mostrar tu compnente dentro de otra vista o template.
 
-So now that we know our component tag we can use it inside our app component (**the original component we worked on**).
+Ahora que sabemos la etiqueta de nuestro componente, podemos usarla dentro de nuestro app component (**El componente original en el que estabamos trabajando**).
 
-1. Go to `app.component.html` and add this at the bottom: `<app-my-component></app-my-component>`
-2. Check your app in the browser! 💕
-3. If you see **my-component** redenderd, then you nailed it! 💪
+1. Abre `app.component.html` Y agrega esto al final: `<app-my-component></app-my-component>`
+2. Mira tu aplicación en el navegador! 💕
+3. Si ves **my-component** rederizado, Entonces ¡lo hiciste! 💪
 
-## Your mission! ⏳
+## Tu Misión! ⏳
 
-Move the logic, the template, and the styles from the **app** component to **my-component**.
+Mueve la lógica, el template, y los estilos del componente **app** a **my-component**.
 
-### Tips 👇
+### Pistas 👇
 
-1. The application should remain working
-2. Migrate everything except the `<app-my-component></app-my-component>` tag, it is necessary to render **my-component**.
+1. La aplicación debería seguir funcionando.
+2. Mueve todo, excepto la etiqueta`<app-my-component></app-my-component>`, es necesaria para renderizar **my-component**.
 
-## You are done! 👏
+## Lo hiciste! 👏
 
-You have created a super maintanable application! 👏👏👏
+Haz creado una aplicación súper mantenible! 👏👏👏
 
-Find the solution **[here](https://stackblitz.com/edit/first-angular-application)**
+Eso es todo!
 
-This is it! Thanks for holding on! See you soon!
-
-![Once there was a repository and you gave it a star](https://i.imgflip.com/1q7vwr.jpg)
