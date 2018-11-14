@@ -1,26 +1,26 @@
-# Your First Angular Application
+# Tu primera aplicación Angular
 
 ## 1. String interpolation
 
-Your application should be already running and working 👌. Now it's time to start making some changes:
+Tu aplicación debe estar corriendo y funcionando 👌. Ahora es tiempo de empezar a hacer cambios:
 
-One cool feature of Angular is called **string interpolation**. It allows you to bind your variables to your template. So let's start:
+Una característica genial de angular se llama **string interpolation**. que permite enlazar tus variables a tu template(HTML o Vista). Empecemos:
 
-1. Go to your `app.component.html` file and replace **all its content** with: `<h1>This is cool! 😃</h1>`
-2. Save the file and check the results. It should work straight away!
-3. Now, go to `app.component.ts` and find the `name` variable
-4. Replace its contents with something like: `'Juan'`
-5. Finally go back to `app.component.html` and add this:
+1. Abre el archivo `app.component.html` y reemplaza **Todo su contenido** con: `<h1>This is cool! 😃</h1>`
+2. Guarda el archivo y mira los cambios. Debería funcionar inmediatamente!
+3. Ahora, abre `app.component.ts` y encuentra la variable `name` 
+4. Reemplaza su contenido con: `'TuNombre'`
+5. Finalmente vuelve a `app.component.html` y agrega esto:
 
 ```html
 <h1>This is cool! 😃</h1>
 <h2>My name is {{ name }} </h2>
 ```
 
-8. Save the file and check the result rendered automatically in the browser 👌👌👌
+8. Guarda el archivo y mira los resultados automáticamente en el navegador 👌👌👌
 
-Make sure your name is there! 💕 Try with more variables!
+Asegurate que tu nombre este ahí! 💕 Intenta con mas variables!
 
 ![results](result.png)
 
-## You are done, now go to [Branch #2](https://github.com/jdjuan/your-first-angular-application/tree/2#your-first-angular-application)
+## Lo hiciste, Ahora pasa a la [rama #2](https://github.com/jdjuan/your-first-angular-application/tree/2#your-first-angular-application)
