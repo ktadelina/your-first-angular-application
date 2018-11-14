@@ -1,35 +1,35 @@
-# Your First Angular Application
+# Tu primera aplicación Angular
 
 ## 3. Property binding
 
-Property binding allows us to set a property to our elements or components ✌️
+Property binding nos permite asignar un valor a una propiedad de nuestro elemento HTML o component ✌️
 
-Let's start using it 🖐:
+Empecemos a usarlo 🖐:
 
-1. Go to `app.component.html` and create an **img** tag like this: `<img>`
-2. No image should be rendered because we are missing the `src` attribute. Instead of adding it directly, let's start using property binding!
-3. Go to your `app.component.ts` file and create a variable called **imageSource** and assign the content like this:
+1. Abre `app.component.html`  y cra una etiqueta **img** como esta: `<img>`
+2. Ninguna imagen se mostará porque nos falta el atributo `src`. En vez de agregarlo directamnete, vamos a usa property binding!
+3. Abre el archivo`app.component.ts` y cra una variable nombrada **imageSource** y agrega el valos como el siguiente:
 
 ```typescript
 imgSource = 'https://www.facevertizing.com/wp-content/uploads/2016/05/Nailed-It-Baby-Meme-06.jpg';
 ```
 
-4. The final step is to update our **img** tag like this: `<img [src]="imgSource">`
+4. El paso final es actualizar la etiqueta **img**  con: `<img [src]="imgSource">`
 
-Did it work!? Coool 💪 That's it! It's simple 😁
+funcionó!? Coool 💪 ¡Eso es todo!😁
 
 ![result](result.png)
 
-## Your mission
+## Tu misión 
 
-Create an `input` tag and enable it or disable it through the clicking of a button.
+Crear una etiqueta `input` habilitar y deshabilitar el input con el click de un botón 
 
-### Tips:
+### Pistas:
 
-1. Don't forget you need a variable to make this work, I would call it: `disabled`
-2. Use the `[disabled]` property of the `input` element
-3. Use the `click` event binding to change the variable!
+1. No olvides que necesitas una variable para hacerlo funcionar, puedes llamarla: `disabled`
+2. Usa la propiedad `[disabled]` del elemento`input` 
+3. Usa el evento `click` para cambiar la variable!
 
-Good Luck! 🤡🤡🤡
+Buena Suerte! 🤡🤡🤡
 
-## When you finish, go to [The Final Branch](https://github.com/jdjuan/your-first-angular-application/tree/4#your-first-angular-application)
+##Cuando termines, pasa a [la rama final](https://github.com/ltciro/your-first-angular-application/tree/4#your-first-angular-application)
