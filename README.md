@@ -25,4 +25,4 @@ En StackBlitz puedes crear diferentes tipos de proyectos.En nuestro caso usaremo
 
 - Pase de una rama a la siguiente para realizar los diferentes ejercicios 
 
-# Estas list@ para pasar a la [rama #1](https://github.com/jdjuan/your-first-angular-application/tree/1#your-first-angular-application)
+# Estas list@ para pasar a la [rama #1](https://github.com/ltciro/your-first-angular-application/tree/1#your-first-angular-application)
