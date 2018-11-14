@@ -1,29 +1,28 @@
-# Your First Angular Application
+# Tu primera aplicación Angular
 
-## 1. Open [Stackblitz.com](https://stackblitz.com/)
+## 1. Abrir [Stackblitz.com](https://stackblitz.com/)
 
-[Stackblitz](https://stackblitz.com/) is a platform that allows you to run different applications using **just your browser**.
+[Stackblitz](https://stackblitz.com/) es una plataforma online que te permite desarrollar diferentes aplicaciones usando **sólo tu navegador** 
 
-- ⭐️ You no longer need to install Node, NPM, Yarn or anything!
-- ⭐️ Stackblitz is fully supported by Google
-- ⭐️ It's even faster than your own terminal
+- ⭐️ No vas a necesitar instalar Node, NPM o cualquier otra cosa en tu computador
+- ⭐️ Stackblitz es soportado porGoogle
+- ⭐️ Es incluso más rápido que la terminal.
 
-You should see something like this:
+Deberías ver algo como esto:
 
 ![Stackblitz](stackblitz.png)
 
-## 2. Select Angular
+## 2. Seleccionar Angular
 
-In Stackblitz you can create different kind of projects. In our case we will use Angular:
+En StackBlitz puedes crear diferentes tipos de proyectos.En nuestro caso usaremos Angular:
 
-- Its interface is very similiar to Visual Studio Code
-- It has the Angular CLI (an scaffolder) already setup, so you can generate files with just 2 clicks!
+- Su interfaz es muy similar a Visual Studio Code
+- Tiene el CLI de Angular(un scaffolder) incluido, así que puedes generar archivos con sólo dos clicks!
 
 ![explained](explained.png)
 
-## 3. You are ready! Let's start
+## 3. Estas List@, ¡vamos a empezar!
 
-- Jump from branch to branch to perform the different exercises ⏰
-- If you are interested in carrying out the exercises in your local environment, take a look at this [documentation](https://angular.io/guide/quickstart)
+- Pase de una rama a la siguiente para realizar los diferentes ejercicios 
 
-# You are ready to go to [Branch #1](https://github.com/jdjuan/your-first-angular-application/tree/1#your-first-angular-application)
+# Estas list@ para pasar a la [rama #1](https://github.com/jdjuan/your-first-angular-application/tree/1#your-first-angular-application)
